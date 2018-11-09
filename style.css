@@ -1,0 +1,125 @@
+
+
+@import
+"social50x50.css";
+@import"phone.css";
+
+body {
+  padding: 0px;
+  font-family: 'Open Sans','Playfair Display','Playfair Display','Roboto Condensed',"Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+    background-color: hsl(0, 0%, 90%);
+}
+.top-header {
+    min-height: 300px;
+    height: 50vh;
+    background-image: url(img/fire2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+    
+}
+
+.main-menu {
+    min-height: 100px;
+  margin: 0;
+  padding: 0px 0px;
+  list-style: none;
+  background-color: hsl(0, 0%, 90%);
+  border: 1px solid background-color: hsl(0, 0%, 90%);
+    
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+    margin-right: 0px;
+    white-space: nowrap;
+    margin-right: -4px;  
+}
+
+.main-menu a {
+  color:black;
+    font-size: 115%;
+    font-weight: 600;
+    display: block;
+    padding: 5px 15px;
+    margin-left: 0px;
+    text-decoration: none;
+    background-color:hsl(0, 0%, 90%);
+}
+.main-menu .active a{
+    color:#ddab04;
+}
+.main-menu li a:hover{
+    border: 1px solid rgba(255, 234, 169, 0.21);
+    color:#ddab04;
+    background-color: hsl(0, 0%, 90%);
+}
+
+hr {
+    border: none;
+    background-color: hsl(0, 0%, 80%);
+    color: hsl(0, 0%, 90%);
+    height: 1px;
+}
+.main-menu .sub-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: none;   
+    
+}
+.main-menu > li:hover .sub-menu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    color:#dfb431;  
+    transition-property: color;
+    transition-duration:10s; 
+}
+.letter::first-letter{
+    float: left;
+    font-family: "Playfair+Display", serif;
+    font-size: 70px;
+    line-height: 60px;
+    
+}    
+.card-body .main{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 4%;   
+}
+.about-me{
+    min-height: 50px;
+    height: 50vh;    
+    background: url(img/lena.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:right;
+    width:220px;
+    padding: 5px;
+    border: 5px solid background-color: hsl(0, 0%, 90%);
+    border-radius: 5px;
+    
+    
+    
+    
+    
+}
+    
+
+    
+    
+    
+    /*align:right;
+    background-position: right;*/   
+}
+

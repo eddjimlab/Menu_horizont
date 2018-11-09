@@ -1,0 +1,11 @@
+var btn;
+window.onload = function () {
+  btn = document.querySelector('.btn');
+  btn.onclick = btnClick;
+};
+
+function btnClick() {
+  btn.classList.toggle('btn-active');
+}
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjcmlwdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxJQUFJLEdBQUo7QUFDQSxPQUFPLE1BQVAsR0FBZ0IsWUFBVTtBQUMxQixRQUFNLFNBQVMsYUFBVCxDQUF1QixNQUF2QixDQUFOO0FBQ0EsTUFBSSxPQUFKLEdBQWMsUUFBZDtBQUNDLENBSEQ7O0FBS0EsU0FBUyxRQUFULEdBQW1CO0FBQ25CLE1BQUksU0FBSixDQUFjLE1BQWQsQ0FBcUIsWUFBckI7QUFDQyIsImZpbGUiOiJzY3JpcHQtY29tcGlsZWQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgYnRuO1xud2luZG93Lm9ubG9hZCA9IGZ1bmN0aW9uKCl7XG5idG4gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuYnRuJyk7XG5idG4ub25jbGljayA9IGJ0bkNsaWNrO1xufVxuXG5mdW5jdGlvbiBidG5DbGljaygpe1xuYnRuLmNsYXNzTGlzdC50b2dnbGUoJ2J0bi1hY3RpdmUnKTtcbn0iXX0=
